@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");
+
+html, body{
+    margin: 0px;
+    height: 100%;
+    padding: 0px;
+}
+.view {
+  min-height: 100%;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.view .phone {
+  margin: 10px 0;
+  height: 650px;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.view .phone .main {
+  height: 40%;
+  background-image: url("https://images.unsplash.com/photo-1511207538754-e8555f2bc187?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2082&q=80");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  color: #fff;
+  padding: 10px;
+  display: grid;
+}
+.view .phone .main .nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.view .phone .main .nav .brand {
+  color: #fff;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 20px;
+}
+.view .phone .main .nav .icons {
+  width: max-content;
+}
+.view .phone .main .nav .icons .hamburger {
+  display: grid;
+  grid-gap: 5px;
+}
+.view .phone .main .nav .icons .hamburger .ham {
+  height: 2px;
+  width: 40px;
+  background: #fff;
+  border-radius: 1px;
+}
+.view .phone .main .intro {
+  display: grid;
+  grid-gap: 20px;
+  padding: 10px;
+  place-items: center start;
+  font-family: 'Montserrat';
+}
+.view .phone .main .intro p {
+  font-weight: 500;
+  font-size: 16px;
+}
+.view .phone .main .intro .sum {
+  font-size: 30px;
+  font-weight: 500;
+}
+.view .phone .main .intro .sum .darken {
+  font-size: 25px;
+  color: #9e9e9e;
+}
+.view .phone .main .button-group {
+  padding: 10px;
+}
+.view .phone .main .button-group button {
+  all: unset;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 14px;
+}
+.view .phone .main .button-group .payments {
+  background: linear-gradient(to right, #11998e, #38ef7d);
+}
+.view .phone .main .button-group .requisites {
+  background: #9e9e9e;
+  opacity: 0.8;
+}
+.view .phone .main .divider {
+  width: 100%;
+  height: 1px;
+  background: #fff;
+}
+.view .phone .main .main-footer {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+.view .phone .main .main-footer p {
+  font-weight: 500;
+}
+.view .phone .main .main-footer p .circle {
+  background-color: #dd2c00;
+  border-radius: 100%;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.view .phone .list {
+  background: #fff;
+  height: 100%;
+  padding: 20px;
+  font-family: 'Montserrat';
+}
+.view .phone .list .head {
+  height: max-content;
+}
+.view .phone .list .head .title {
+  font-weight: 700;
+  font-size: 25px;
+}
+.view .phone .list .head .title span {
+  color: #40c4ff;
+}
+.view .phone .list .head p {
+  padding: 10px 0;
+  color: #9e9e9e;
+}
+.view .phone .list .history {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.view .phone .list .history li {
+  margin: 1px;
+  font-weight: 600;
+  background: #e0e0e0;
+  padding: 10px;
+  justify-content: space-between;
+  border-radius: 5px;
+  display: flex;
+}
+.view .phone .list .history li .content {
+  font-size: 14px;
+  display: grid;
+  grid-gap: 3px;
+}
+.view .phone .list .history li .content .minus {
+  color: #ff3d00;
+  font-weight: 500;
+}
+.view .phone .list .history li .content .plus {
+  color: #00c853;
+  font-weight: 500;
+}
+.view .phone .list .history li button {
+  all: unset;
+  padding: 10px;
+  width: 50px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+}
+.view .phone .list .history li .sign {
+  background: linear-gradient(to right, #11998e, #38ef7d);
+}
+.view .phone .list .history li .income {
+  background: #e1f5fe;
+  color: #40c4ff;
+  font-weight: 600;
+}
+.view .phone .list .history li .outcome {
+  background: #ffcdd2;
+  color: #ff3d00;
+}
